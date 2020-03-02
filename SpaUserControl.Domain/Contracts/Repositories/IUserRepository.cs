@@ -7,7 +7,7 @@ using SpaUserControl.Domain.Models;
 
 namespace SpaUserControl.Domain.Contracts.Repositories
 {
-    public interface IUserRepository
+    public interface IUserRepository : IDisposable
     {
         User Get(string email);
         User Get(Guid id);

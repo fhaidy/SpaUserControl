@@ -6,6 +6,7 @@ namespace SpaUserControl.Domain.Models
 {
     public class User
     {
+        protected User() { }
         public User(string name, string email)
         {
             Id = Guid.NewGuid();

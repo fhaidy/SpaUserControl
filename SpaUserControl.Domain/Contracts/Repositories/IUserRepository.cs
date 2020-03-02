@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SpaUserControl.Domain.Models;
+﻿using SpaUserControl.Domain.Models;
+using System;
 
 namespace SpaUserControl.Domain.Contracts.Repositories
 {

@@ -8,7 +8,12 @@ namespace SpaUserControl.Infraestructure.Data.Repositories
 {
     public class UserRepository : IUserRepository
     {
-        private readonly AppDataContext _context = new AppDataContext();
+        private readonly AppDataContext _context;
+
+        public UserRepository(AppDataContext context)
+        {
+            _context = context;
+        }
 
         public User Get(Guid id)
         {
